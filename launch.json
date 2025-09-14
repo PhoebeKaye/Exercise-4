@@ -1,0 +1,21 @@
+launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Preview Static HTML (no PHP)",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch PHP site with XAMPP",
+      "url": "http://localhost/myproject/",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
+
+
